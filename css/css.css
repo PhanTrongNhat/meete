@@ -146,3 +146,104 @@ body{
     
     padding:10px 10px 0px 10px;
 }
+
+.bc-text{
+    margin: 20px 0px 20px 0px ;
+    font-size: larger;
+}
+.body-category .bs-wrap{
+    display: flex;
+    border: 1px ridge #b2a9ac;
+    border-radius: 10px;
+    width: 300px;
+    height: 60px;
+    margin: 10px;
+   
+}
+.body-category #bs-img{
+    border-radius: 10px 0px 0px 10px;
+}
+.body-category .content{
+  
+   width: 200px;
+   text-align: center;
+}
+.body-wrapCategory{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.footer{
+    background-color: rgb(19, 16, 16);
+    height: 700px;
+    color: white
+}
+.footer .text-1{
+    display: flex;
+    font-size: larger;
+   
+    
+    
+
+}
+.footer .button-1{
+    font-size: larger;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid white;
+    background-color: black;
+    color: white;
+    margin-left: 50px;
+    border-radius: 10px;
+    
+}
+.footer .wrap-footer{
+    padding: 50px 200px 0px 200px ;
+}
+.footer .ft-header{
+
+    display: flex;
+    margin-bottom: 50px;
+   
+}
+.footer .table{
+    display: flex; 
+    margin-top: 50px; 
+}
+.footer .tb-column{
+    width: 33%;
+}
+.footer .tb-column p{
+    color: silver;
+}
+.footer .logo .lg-img{
+    margin: 20px;
+    height: 30px;
+    width: 120px;
+}
+.footer .logo{
+    display: flex;
+}
+.footer .wrap-icon{
+    display: flex;
+}
+.footer .wrap-logo{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.footer .wrap-logo #icon{
+   font-size: 30px;
+   width: 30px;
+   height: 30px;
+   margin:20px 20px 20px 0px;
+   
+}
+.footer .footer-list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.footer .footer-list li{
+    margin: 0px 20px 0px 0px;
+    
+}
